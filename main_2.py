@@ -10,7 +10,7 @@ st.set_page_config(
 # Sidebar Navigasi
 with st.sidebar:
     st.title("🚀 Navigasi")
-    page = st.radio("Pilih Halaman", ["Tentang Saya", "Visualisasi", "Prediksi"])
+    page = st.radio("Pilih Halaman", ["Tentang Saya", "Project Info", "Visualisasi", "Prediksi"])
 
 # Tampilan Utama
 st.markdown(
@@ -36,6 +36,10 @@ if page == "Visualisasi":
 elif page == "Prediksi":
     import app
     app.prediksi()
+
+elif page == "Project Info":
+    import project_info
+    project_info.project_info()
 
 
 # Tampilan depan saat pertama dibuka
