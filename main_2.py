@@ -45,7 +45,7 @@ if page == "Tentang Saya":
     col1, col2 = st.columns([1, 2])
 
     with col1:
-        st.image("Foto.jpg", width=250)
+        st.image("Foto.JPG", width=250)
 
     with col2:
         st.markdown('<p class="main-title">Hai, saya Novia! 👋</p>', unsafe_allow_html=True)
