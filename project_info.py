@@ -17,19 +17,19 @@ def project_info():
 
     # Tujuan
     st.subheader('Tujuan')
-    st.write("""Tujuan dari project ini adalah untuk membangun model klasifikasi churn yang dapat memprediksi pelanggan yang berisiko untuk meninggalkan layanan perusahaan. Dengan menggunakan algoritma machine learning, seperti Logistic Regression, Random Forest, dan XGBoost, model ini akan dilatih menggunakan data historis yang mencakup berbagai faktor, seperti durasi penggunaan layanan, tingkat penggunaan, jenis kontrak, dan faktor demografis pelanggan.
-             Tujuan spesifik dari project ini adalah:
-             1. Membangun model klasifikasi yang akurat untuk memprediksi churn.
-             2. Menganalisis faktor-faktor utama yang memengaruhi keputusan churn pelanggan.
+    st.write("""Tujuan dari project ini adalah untuk membangun model klasifikasi churn yang dapat memprediksi pelanggan yang berisiko untuk meninggalkan layanan perusahaan. Dengan menggunakan algoritma machine learning, seperti Logistic Regression, Random Forest, dan XGBoost, model ini akan dilatih menggunakan data historis yang mencakup berbagai faktor, seperti durasi penggunaan layanan, tingkat penggunaan, jenis kontrak, dan faktor demografis pelanggan.\n
+             Tujuan spesifik dari project ini adalah:\n
+             1. Membangun model klasifikasi yang akurat untuk memprediksi churn.\n
+             2. Menganalisis faktor-faktor utama yang memengaruhi keputusan churn pelanggan.\n
              3. Menyediakan solusi berbasis data untuk tim pemasaran dan layanan pelanggan dalam mengurangi churn."""
     )
 
     # Manfaat
     st.subheader('Manfaat')
-    st.write("""Proyek ini akan memberikan manfaat yang signifikan bagi perusahaan telekomunikasi, antara lain:
-             1. Pengurangan tingkat churn: Dengan memprediksi pelanggan yang berisiko tinggi churn, perusahaan dapat mengambil langkah-langkah proaktif untuk meningkatkan kepuasan dan loyalitas pelanggan.
-             2. Optimalisasi sumber daya: Mengarahkan upaya pemasaran dan layanan pelanggan untuk berfokus pada pelanggan yang lebih mungkin bertahan, menghemat waktu dan biaya.
-             3. Peningkatan pengalaman pelanggan: Dengan memahami faktor-faktor yang memengaruhi churn, perusahaan dapat menyesuaikan produk dan layanan mereka untuk memenuhi kebutuhan pelanggan dengan lebih baik.
+    st.write("""Proyek ini akan memberikan manfaat yang signifikan bagi perusahaan telekomunikasi, antara lain:\n
+             1. Pengurangan tingkat churn: Dengan memprediksi pelanggan yang berisiko tinggi churn, perusahaan dapat mengambil langkah-langkah proaktif untuk meningkatkan kepuasan dan loyalitas pelanggan.\n
+             2. Optimalisasi sumber daya: Mengarahkan upaya pemasaran dan layanan pelanggan untuk berfokus pada pelanggan yang lebih mungkin bertahan, menghemat waktu dan biaya.\n
+             3. Peningkatan pengalaman pelanggan: Dengan memahami faktor-faktor yang memengaruhi churn, perusahaan dapat menyesuaikan produk dan layanan mereka untuk memenuhi kebutuhan pelanggan dengan lebih baik.\n
              4. Peningkatan profitabilitas: Dengan menurunkan churn, perusahaan dapat mengurangi biaya akuisisi pelanggan baru dan meningkatkan pendapatan dari pelanggan yang ada.
              """
     )
